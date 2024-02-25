@@ -1,0 +1,8 @@
+body {
+    color: white;
+    background: white;
+}
+
+.white--text {
+    color: white !important;
+}

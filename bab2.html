@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SubBab 1</title>
+    <link rel="stylesheet" href="app(2).css">
+    <link href="https://cdn.jsdelivr.net/npm/@mdi/font/css/materialdesignicons.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/vuetify@2.5.8/dist/vuetify.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="app">
+        <v-app>
+            <v-app-bar app color="primary">
+                <v-btn icon color="white" @click.stop="goBack">
+                    <v-icon>mdi-arrow-left</v-icon>
+                </v-btn>
+                <v-toolbar-title class="white--text">SubBab 2 - Kondisi Alam Negara-negara di dunia </v-toolbar-title>
+            </v-app-bar>
+
+            <v-main>
+                <v-container>
+                    <v-card class="mx-auto" max-width="100%">
+                        <v-list rounded three-line>
+                            <v-list-item>
+                                <v-list-item-content>
+                                    <v-list-item-title :class="{ 'text-center': true, 'font-weight-bold': true }">1. Jepang </v-list-item-title>
+                                </v-list-item-content>
+                            </v-list-item>
+                            <v-list-item>
+                                <v-list-item-content>
+                                    <v-img src="japan.png" height="100" width="150" contain style="border: 2px solid #212121"></v-img>
+                                    <label> Lagu Kebangsaan Jepang : <audio src="japan.ogg" controls=""></audio></label <p class="text-justify">
+                                    Negara Jepang secara astronomis terletak pada : 30° LU - 47° LU dan 128° BT - 146° BT
+                                    </p>
+
+                                    <hr>
+                                    <p class="text-justify ">
+                                        Catatan Penting tentang Jepang :
+                                    </p>
+                                    <p>A. Ibukota : Tokyo</p>
+                                    <p>B. Bahasa :Jepang</p>
+                                    <p>C. Agama : Shinto,Buddha,Kristen.</p>
+                                    <p>D. Pemerintahan: Kerajaan Konstitusional.</p>
+                                    <p>E. Kepala Negara: Kaisar.</p>
+                                    <p>F. Kepala Pemerintahan: Perdana Menteri</p>
+                                    <p>G. Mata Uang : Yen (¥)</p>
+                                    <hr>
+                                    <p> Batas Negara Jepang : </p>
+                                    <p>A. Barat : Korea Utara, Korea Selatan, dan Rusia</p>
+                                    <p>B. Utara : Laut Okhstosk</p>
+                                    <p>C. Timur : Samudra Pasifik </p>
+                                    <p>D. Selatan: Laut China Timur, dan Laut Filipina </p>
+                                    <hr>
+                                    <p>jepang memiliki iklim sedang dengan empat musim yaitu musim semi,panas, gugur,dan dingin.</p>
+                                    <p>musim panas di jepang dimulai sekitar bulan juni. suhu musim panas bisa mencapai 35° C</p>
+                                    <p>musim dingin berawal sekitar bulan desember, pada musim dingin suhu udara sangat rendah bahkan dapat mencapai -20° C.</p>
+                                    <hr>
+                                    <p>jepang memiliki wilayah dataran yang kecil yaitu sekitar 30% dari luas wilayahnya. sebagian besar atau 70-80% wilayahnya terdiri atas pegunungan. wilayah dataran terletak di sepanjang pantai, dataran terbesar dapat dijumpai di dataran kanto, kinai plain,nobi,echigo,sendai.</p>
+                                    <hr>
+                                    <p>Jepang terletak di tepi bagian barat samudra pasifik. daerah ini merupakan bagian dari cincin api yang terdiri atas banyak gunung api setidaknya terdapat 192 gunung api tersebar di negara ini. salah satu diantaranya adalah gunung tertinggi di jepang yaitu gunung fuji dengan ketinggian 3776m.</p>
+                                    <p>jepang sering dilanda gempa karena terletak pada daerah perbatasan antara lempeng benua asia dan lambang samudera pasifik.</p>
+                                    <hr>
+                                    <p>beberapa hasil tambang negara Jepang diantaranya : batubara, teimah,seng mangan tungsten antimoni dan krom.</p>
+                                    <hr>
+                                    <p>wilayah negara jepang terdiri dari 67% wilayah hutan.</p>
+                                    <p>menurut bpjs pada tahun 2015 jepang memiliki penduduk sebesar 126,9 juta jiwa. walaupun jumlah penduduknya besar tetapi ada kecenderungan terus mengalami penurunan. angka kelahiran di jepang relatif rendah sehingga terjadi penurunan jumlah penduduk. sebagian besar penduduk jepang bekerja di luar sektor pertanian, tendangan industri yang pesat membuat sebagian besar penduduknya bekerja di sektor industri.</p>
+                                    <p>pada tahun 2013 usia harapan hidup penduduk jepang mencapai 86 tahun untuk wanita dan 79 tahun untuk pria.</p>
+                                </v-list-item-content>
+                            </v-list-item>
+
+                        </v-list>
+                    </v-card>
+                    <v-card class="mx-auto mt-5" max-width="100%">
+                        <v-list rounded three-line>
+                            <v-list-item>
+                                <v-list-item-content>
+                                    <v-list-item-title :class="{ 'text-center': true, 'font-weight-bold': true }">2. Amerika Serikat </v-list-item-title>
+                                </v-list-item-content>
+                            </v-list-item>
+                            <v-list-item>
+                                <v-list-item-content>
+                                    <v-img src="United States.png" height="100" width="150" contain style="border: 2px solid #212121"></v-img>
+                                    <label> Lagu Kebangsaan Amerika: <audio src="United States.mp3" controls=""></audio></label <p class="text-justify">
+                                    Negara Amerika Serikat secara astronomis terletak pada : 24°33'LU-70°23'LU dan 172°27'BB-66°51'BB
+                                    </p>
+
+                                    <hr>
+
+                                    <p> Batas Negara Amerika Serikat : </p>
+                                    <p>A. Barat : Samudra Pasifik </p>
+                                    <p>B. Utara : Kanada</p>
+                                    <p>C. Timur : Samudra Atlantik dan Meksiko </p>
+                                    <p>D. Selatan : Teluk Meksiko, dan Kuba </p>
+                                    <hr>
+                                    <p>Amerika Serikat memiliki beberapa jenis iklim yang terdiri dari atas iklim kontinental,iklim sedang ,iklim mediterania ,iklim subtropis dan iklim dingin</p>
+                                    <p>suhu udara pada musim dingin dapat mencapai -30°C dan suhu pada musim panas dapat mencapai 26°C kebanyakan wilayahnya. ada bagian gurun bisa mencapai 43°C</p>
+                                    <p>curah hujan di wilayah amerika juga sangat bervariasi di pantai barat curah hujan bisa mencapai 2.500 mm/tahun, namun wilayah di gurun dan dataran rendah pedalaman curah hujannya lebih rendah.</p>
+                                    <hr>
+                                    <p>wilayah amerika serikat terdiri dari atas dua rangkaian pegunungan besar yaitu pegunungan rocky mountain ita kian barat dan pegunungan appalachia bagian timur.</p>
+                                    <p>pegunungan appalachia i bagian timur membentang hampir sejajar samudera atlantik sejauh 2.400km.</p>
+                                    <p>di antara kedua pegunungan tersebut terletak dataran sangat luas yang disebut great plains. sejumlah sungai mengalir melewati dataran tersebut dengan sungai dan besarnya yaitu sungai missisippi yang panjangnya mencapai 3.734 km</p>
+                                    <hr>
+                                    <p>amerika serikat merupakan negara yang kaya akan sumber daya geologi. ada kekayaan tersebut adalah batubara, minyak bumi,tembaga, posfat, timah dan besi.</p>
+                                    <p>beberapa bahan tambang yang dihasilkan amerika serikat adalah uranium, bauksit, emas, perak, merkuri, nikel, potash, besi dan gas alam.</p>
+                                    <hr>
+                                    <p>di bagian utara amerika serikat di daerah pegunungan ditumbuhi pohon pinus. kita kian tengah amerika terdapat padang rumput yang sangat luas dari perbatasan dengan kan ada di utara sampai sekitar teluk meksiko di selatan. padang rumput tersebut berbatasan dengan gurun di bagian barat amerika serikat. di bagian tenggara dapat dijumpai hutan yang biasanya terdapat pohon mapel,elm dan ek.</p>
+                                    <p>sepohon konifer yang tinggi dan besar banyak tumbuh di daerah pegunungan california.</p>
+                                    <hr>
+                                    <p>Jenis fauna yang hidup di Amerika Serikat antara lain bison, antelop, dan beruang di kawasan Midwest; domba dan rusa di kawasan pegunungan; puma di pesisir pasifik; armadilo, selot, dan jaguar di kawasan barat daya; opossum, aligator, buaya kardinal di kawasan selatan; dan karibu, beruang kutub, anjing laut, serta paus di kawasan Alaska.</p>
+                                    <hr>
+                                    <p>Amerika Serikat merupakan negara dengan jumlah penduduk terbesar ketiga di dunia setelah China dan India yaitu mencapai 321,2 juta jiwa (WPDS, 2015). Penduduk aslinya adalah suku Indian yang menurut beberapa ahli sejarah berasal dari Eurasia yang bermigrasi antara 65.000-25.000 tahun yang lalu. Migrasi terakhir terjadi sekitar 12.000 tahun yang lalu.</p>
+                                    <p>Jumlah penduduk Indian sebelum kedatangan bangsa Eropa diperkirakan berkisar 2-8 juta jiwa. Pada tahun 1890, diperkirakan jumlahnya tinggal 250 ribu jiwa. Kedatangan bangsa Eropa membuat suku Indian semakin terpinggirkan secara jumlah dan sosial ekonomi. Selain Indian terdapat orang Eskimo di Alaska yang jumlahnya relatif kecil.</p>
+                                    <hr>
+                                    <p>Pada saat ini, penduduk Amerika Serikat terdiri atas orang-orang kulit putih yang sebagian besar berasal dari Inggris dan Irlandia, dan orang-orang kulit hitam atau negro yang berasal dari Afrika. Selain itu, ada pula orang-orang Asia, seperti China, India, Jepang, dan Vietnam, serta penduduk asli yaitu Indian.</p>
+                                    <p>Sebagaimanan negara maju lainnya,
+
+                                        sebagian besar penduduk Amerika bekerja di luar sektor pertanian atau yang mengandalkan sumber daya alam. Komposisi penduduk berdasarkan sektor pekerjaannya yaitu sektor manajerial, profesional, dan teknik (34,9%), penjualan dan perkantoran (25%), manufaktur, transportasi, dan keahlian (22,9%), sektor jasa lainnya (16,5%). Sektor pertanian, kehutanan, dan perikanan hanya digeluti oleh sebagian kecil (0,7%) penduduknya (NationMaster, 2006).</p>
+
+                                </v-list-item-content>
+                            </v-list-item>
+
+                        </v-list>
+                    </v-card>
+                    <v-card class="mx-auto mt-5" max-width="100%">
+                        <v-list rounded three-line>
+                            <v-list-item>
+                                <v-list-item-content>
+                                    <v-list-item-title :class="{ 'text-center': true, 'font-weight-bold': true }">3. Britannia Raya </v-list-item-title>
+                                </v-list-item-content>
+                            </v-list-item>
+                            <v-list-item>
+                                <v-list-item-content>
+                                    <v-img src="Uk.png" height="100" width="150" contain style="border: 2px solid #212121"></v-img>
+                                    <label> Lagu Kebangsaan Britania Raya : <audio src="United Kingdom.mp3" controls=""></audio></label <p class="text-justify">
+                                    Negara Britania Raya secara astronomis terletak pada : 50° LU-60° LU dan 8" BB-2° BT.
+                                    </p>
+
+                                    <hr>
+
+                                    <p> Batas Negara Britania Raya : </p>
+                                    <p>A. Barat : Samudra Atlantik dan Irlandia</p>
+                                    <p>B. Utara : Samudra Atlantik</p>
+                                    <p>C. Timur : laut utara</p>
+                                    <p>D. Selatan : selat English channel</p>
+                                    <hr>
+                                    <p>Luas wilayah Inggris mencapai 244.110 km² meliputi wilayah England Skotlandia, Wales, Irlandia Utara, dan sejumlah pulau kecil di sekitarnya. Jarak dari utara sampai selatan wilayah Inggris mencapai 965 km dan jarak dari timur ke barat mencapai 515 km.</p>
+
+                                    <p>Karena posisi lintangnya, Inggris memiliki iklim sedang. Negara ini juga dikelilingi lautan, sehingga memiliki iklim laut dengan ciri sejuk dan basah. Karena itu, hampir sepanjang tahun Inggris mengalami hari-hari yang sejuk dan dingin. Suhu udara tertinggi yang pernah tercatat mencapai 38,50° C pada musim panas dan -26,10° C pada musim dingin. Walaupun demikian, rerata suhu pada musim dingin antara 4°C-5°C dan pada musim panas antara 12°C-16°C. Pantai barat bagian utara Inggris lebih hangat dibanding dengan wilayah lainnya.</p>
+                                    <p>Curah hujan di Inggris relatif merata sepanjang tahun dengan rata- rata tahunan mencapai 1.000 mm/ tahun. Pantai barat memperoleh curah hujan lebih tinggi dari pantai timurnya, namun curah hujan paling tinggi berada di pegunungan. Posisinya yang berada dekat Samudra Atlantik dan adanya arus Atlantik Utara membuat pesisir barat Inggris lebih sejuk dan lebih basah dibanding pesisir timurnya.</p>
+                                    <hr>
+                                    <p>Jika dilihat dari reliefnya, wilayah Inggris terbagi menjadi dua bagian, yaitu wilayah yang bergunung-gunung di bagian utara dan dataran rendah yang bergelombang di timur dan selatan. Perbedaan relief ini menunjukkan adanya perbedaan usia batuan. Batuan berusia lebih tua berada di barat dan utara, sedangkan batuan yang lebih muda berada di timur dan selatan.</p>
+                                    <hr>
+                                    <p>Inggris memiliki sumber daya geologi yang beragam, termasuk batu bara yang sangat mendukung Revolusi Industri di Inggris. Selain itu, Inggris memiliki sumber daya minyak bumi dan gas yang memasok kebutuhan energinya selama abad XX. Energi panas bumi juga dimiliki Inggris dalam jumlah terbatas. Beberapa sumber daya mineral yang tersedia di negara ini adalah pasir dan kerikil untuk bangunan, logam, dan lempung.</p>
+                                    <hr>
+                                    <p>Kegiatan pertanian dan industri di Inggris telah mengurangi luas area hutan alaminya. Akibatnya, sebagian flora dan fauna di Inggris telah berkurang populasinya dan bahkan beberapa di antaranya punah. Flora yang dapat dijumpai di Inggris adalah pohon ek dan elm, horse chestnut, spruce Norwegia, larch Jepang, dan fir Douglas. Fauna yang masih banyak dijumpai adalah rusa merah Skotlandia dan sekitar 400 burung termasuk rajawali emas dari Skotlandia dan belibis merah yang khas dari Inggris.</p>
+                                    <p>Pada tahun 2015, penduduk Inggris mencapai 65,1 juta jiwa (WPDS, 2015). Angka pertumbuhan penduduknya hanya 0,4% atau tergolong rendah Sebagian besar tinggal di daerah perkotaan yang mencapai angka 80% dari jumlah penduduknya. Kota London sebagai ibukota negara dihuni oleh sekitar 12% penduduk Inggris, sementara daerah bagian utara seperti Skotlandia, Wales, dan Irlandia Utara penduduknya jarang</p>
+                                    <hr>
+                                    <p>Penduduk asli Inggris terdiri atas dua kelompok, yaitu Bangsa Kelt (Skotlandia, Irlandia, dan Wales) dan Bangsa Jerman (Anglo, Saxon, Jute, Denmark, dan Norman). Sebagian besar (87,2%) penduduknya berkulit putih, sisanya berkulit hitam, dan Asia. Bahasa yang digunakan secara
+
+
+                                        resmi oleh penduduk Inggris tentu saja Bahasa Inggris. Sebagian besar (86,9%) penduduknya beragama Kristen. Sisanya adalah pemeluk agama Islam, Yahudi, Hindu, Sikh, serta tidak beragama (ateis).</p>
+
+
+
+
+
+
+                                </v-list-item-content>
+                            </v-list-item>
+
+                        </v-list>
+                    </v-card>
+                    <v-card class="mx-auto" max-width="100%">
+                        <v-list rounded three-line>
+                            <v-list-item>
+                                <v-list-item-content>
+                                    <v-list-item-title :class="{ 'text-center': true, 'font-weight-bold': true }">4. Australia </v-list-item-title>
+                                </v-list-item-content>
+                            </v-list-item>
+                            <v-list-item>
+                                <v-list-item-content>
+                                    <v-img src="Au.png" height="100" width="150" contain style="border: 2px solid #212121"></v-img>
+                                    <label> Lagu Kebangsaan Australia : <audio src="au.ogx" controls=""></audio></label <p class="text-justify">
+                                    <p>
+                                        Iklim di Australia bervariasi karena wilayahnya yang sangat luas. Australia berada pada tiga wilayah lintang, yaitu wilayah lintang tropis, subtropis, dan sedang. Wilayah Australia yang masuk lintang tropis berada pada 11°LS- 23.5°LS, lintang subtropis pada 23,5°LS-35°LS, dan wilayah lintang sedang pada 35 LS-44"LS. Dari arah tropis ke lintang sedang suhu udaranya terus menurun.
+                                    </p>
+
+                                    <hr>
+                                    <p>Wilayah Australia yang berada pada lintang tropis, suhu udaranya berkisar antara 21°C-27°C. Curah hujan di wilayah tropis, khususnya yang dekat dengan pantai jauh lebih besar dibandingkan daerah pedalamannya, paling sedikit 1.000-1.500 mm.
+
+                                        Gambar 1.27. Peta Iklim Australia
+
+                                        Di kawasan iklim lembap subtropis, suhu rata-rata tahunan antara 16°C dan 21° C. Rata-rata curah hujannya antara 500-1500 mm/tahun. Di kawasan iklim sedang dan lembap, suhu tahunan berkisar antara 10°C-16°C. Curah hujan bervariasi umumnya antara 250-1.000 mm/tahun.
+
+                                        Di samping iklim tersebut, terdapat iklim padang pasir. Sebagian pedalaman Australia memiliki curah hujan yang sangat rendah, sehingga terdapat gurun atau padang pasir yang sangat luas. Curah hujannya kurang dari 250 mm/ tahun, bahkan ada yang tidak hujan selama beberapa tahun. Suhu berkisar
+
+                                        antara 16°C-27°C</p>
+                                    <hr>
+                                    <p>Setidaknya terdapat empat bentuk muka bumi di Australia, yaitu: Dataran Pantai (Coastal Plains), Dataran Tinggi Timur (Eastern Highlands), Dataran Rendah Tengah (central lowlands), dan Plato, Dataran pantai terdapat di bagian timur Australia yang memanjang dari Queensland sampai Victoria. Wilayah ini merupakan wilayah terpadat di Australia.
+
+                                        Dataran Tinggi Timur atau disebut juga The Great Dividing Range terletak di bagian timur Australia. Wilayahnya memanjang sejauh 3.500 km dari Cape York Peninsula sampai Tasmania. Wilayah ini terdiri atas lembah atau jurang yang curam namun merupakan yang tersubur di Australia.</p>
+                                    <p>Dataran Rendah Tengah memiliki ciri sangat datar, ketinggian sekitar 200 m di atas permukaan laut, tersusun atas batuan berusia tua, sangat kering dan sangat panas (memiliki gurun dan semi gurun). Dataran Rendah Tengah meliputi 1/4 bagian dari Benua Australia.
+
+                                        Plato Bagian barat mencakup 1/3 luas Benua Australia. Kondisi iklimnya sangat kering dan semi kering serta tersusun oleh batuan beku purba dan batuan metamorf.</p>
+                                    <hr>
+                                    <p>Australia memiliki sejumlah potensi sumber daya alam seperti minyak dan gas, bauksit, batu bara, bijih besi, intan, aluminium, tembaga, emas, mangan, lithium, bijih mangan, posfat, nikel, vanadium, zinc, perak, dan uranium. Produksi batu bara Australia merupakan yang terbesar kedua setelah Republik Guinea dan urutan kelima di dunia sebagai produsen aluminium, Batu bara hitam Australia menempati peringkat kelima dunia setelah Amerika Serikat, Rusia, China, dan India. Australia juga memiliki sumber daya emas terbesar dunia, berikutnya Afrika Selatan dan Rusia.</p>
+                                    <hr>
+                                    <p>Posisi geografis Australia yang ter- isolasi membuat negara ini memiliki keunikan flora dan faunanya. Sekitar 80% dari tanaman bunga, mamalia, reptil, dan katak adalah khas Australia.
+
+                                        Vegetasi yang umumnya ditemui di Australia adalah vegetasi yang telah beradaptasi dengan kondisi kering. Vegetasi yang dominan adalah rumput hummock yang umumnya berada di Australia Barat, Australia Selatan, Australia Utara. Pada wilayah Australia Timur, hutan eukaliptus lebih umum dijumpai. Di barat dapat dijumpai hutan akasia dan semak belukar.</p>
+                                    <p>Australia memiliki lebih dari 378 spesies mamalia, 828 spesies burung, 300 spesies kadal, 140 spesies ular, dan dua spesies buaya. Beberapa yang sangat terkenal dan menjadi simbol atau ikon Australia adalah kanguru. wallabi, koala, dan setan tasmania (tasmanian devil). Selain itu, Australia memiliki beberapa fauna asli seperti dingo, platypus, currawong, angsa hitam, kookaburra, dan lybird. Fauna lainnya adalah ular yang banyak ditemukan di Australia. Australia memiliki banyak ular berbisa. Bahkan, 21 dari 25 ular paling mematikan ada di Australia.</p>
+                                    <hr>
+                                    <p>Selain keanekaragaman hayati di daratan, Australia memiliki keaneka- ragaman hayati di lautan. Australia memiliki 4.000 jenis ikan. Australia juga memiliki sistem terumbu karang terbesar di dunia yang bernama Great Barrier Reef. Beberapa spesies di lautan Australia antara lain hiu putih besar, hiu paus raksasa, dan ubur-ubur kotak (the box jellyfish) yang merupakan binatang paling berbisa di dunia.</p>
+                                    <hr>
+                                    <p>Jumlah penduduk Australia mencapai 23,9 juta (WPDS, 2015) dengan angka pertumbuhan mencapai 1,15%. Jumlah penduduk Australia tersebut relatif kecil jika dibandingkan luas Australia yang sangat besar. Kepadatan penduduk Australia hanya 3,1 orang/km². Sekitar 89% penduduknya tinggal di daerah perkotaan.
+
+                                        Penduduk asli Australia adalah Suku Aborigin. Penduduk lainnya adalah pendatang dari berbagai negara dan benua. Rata-rata ada 393 pendatang atau imigran per hari ke Australia.</p>
+                                    <p>Struktur penduduk Australia berdasarkan usia menunjukkan bahwa 18,3% penduduknya berada di bawah usia 15 tahun, 67,7% berusia 15-64 tahun dan 14% berusia 65 tahun atau lebih. Ini menunjukkan angka ketergantungan sebesar 20,7%.</p>
+                                </v-list-item-content>
+                            </v-list-item>
+
+                        </v-list>
+                    </v-card>
+                    <v-card class="mx-auto mt-5" max-width="100%">
+                        <v-list rounded three-line>
+                            <v-list-item>
+                                <v-list-item-content>
+                                    <v-list-item-title :class="{ 'text-center': true, 'font-weight-bold': true }">5. Mesir </v-list-item-title>
+                                </v-list-item-content>
+                            </v-list-item>
+                            <v-list-item>
+                                <v-list-item-content>
+                                    <v-img src="mesir.png" height="100" width="150" contain style="border: 2px solid #212121"></v-img>
+                                    <label> Lagu Kebangsaan Mesir : <audio src="mesir.ogg" controls=""></audio></label>
+<p>Mesir terletak pada 25°BT- 36°BT dan 22°LU-32°LU. Secara geografis, Mesir terletak di Afrika Utara dengan posisi sebagian negaranya menghadap Laut Mediterania dan Laut Merah. Negara ini berbatasan di utara dengan Laut Mediterania, di sebelah barat dengan Libya, di sebelah selatan berbatasan dengan Sudan, dan di sebelah timur dengan Laut Merah. Luas wilayah mencapai 1.500.000 km².</p>
+                                    <hr>
+<p>Posisi Mesir menjadi sangat penting karena adanya sebuah terusan yaitu Terusan Suez. Terusan tersebut memperpendek jarak dari Eropa ke negara- negara Asia dan Australia atau sebaliknya. Sebelum adanya terusan tersebut, perjalanan laut dari Eropa ke negara-negara Asia dan Australia atau sebaliknya harus mengelilingi Afrika melewati pantai barat Afrika dan lautan di selatan Afrika. Jarak tersebut tentu sangat jauh dan memerlukan waktu yang lama.</p>
+                                    <hr>
+<p>Mesir memiliki iklim subtropis dan gurun. Hanya ada dua musim utama di Mesir yaitu musim panas yang sangat panas (hot summer) dan musim dingin yang ringan (mild winter). Musim panas berlangsung dari Mei sampai Oktober, sedangkan musim dingin berlangsung sampai April.</p>
+<p>Suhu udara di Mesir dapat
+
+dibedakan antara wilayah utama, yaitu pantai laut Mediterania dan daerah pedalaman Mesir. Di wilayah pantai Laut Mediterania, suhu udara tidak sebesar di daerah pedalamannya. Di wilayah ini, pada musim dingin suhu udara berkisar antan 9,5°C sampai 23°C, sedangkan pada musim panas antara 17°C sampai 320 Di daerah pedalaman Mesir suhu udara dapat mencapai lebih dari 40°C pad siang hari. Seperti di daerah gurun lainnya, suhu udara dapat berbeda jau antara siang dan malam. Di wilayah gurun, siang hari di musim panas suhuny dapat mencapai 43°C dan malam hari mencapai 7°C, sedangkan pada musin dingin, suhu siang hari mencapai sekitar 18°C dan malam hari dapat mencapa 0°C</p>
+<p>Setiap tahun antara Maret dengan Mei terdapat angin yang berhembus
+
+dari selatan atau barat daya. Angin tersebut panas, kering, dan berdebu yang oleh penduduk lokal disebut Sirocco dan Khamsin. Angin yang kering dan panas tersebut jika melewati gurun akan membawa debu dan pasir. Suhu angin tersebut dapat mencapai 45°C dan dengan kecepatan 140 km/jam dapat merusak tanaman yang dilewatinya.</p>
+<hr >
+<p>Sebagian besar wilayah Mesir merupakan gumuk pasir (sand dunes) yang terletak pada wilayah yang rendah antara gurun Bagian Barat dan Gurun Lybia. Walaupun demikian ada beberapa bentuk muka bumi utama yang dapat dijumpai di wilayah Mesir, yaitu:
+
+1). Semenanjung Sinai
+
+Semenanjung Sinai terletak di sebelah timur Terusan Suez dan berbatasan dengan Israel. Semenanjung Sinai terdiri atas dataran tinggi dan pegunungan.
+
+2). Gurun Arabia
+
+Daerah ini merupakan pegunungan yang kasar, sangat tandus dan bergelombang. Posisinya terletak antara Sungai Nil dan Pegunungan di tepi Laut Merah. Puncak tertingginya adalah Jabel Hemada (1977 m).</p>
+<p>3). Gurun Libya
+
+Gurun Libya merupakan sebuah permukaan daratan yang letaknya lebih rendah dari permukaan laut (Depresi Kontinental). Posisi Gurun Libya berada di sebelah barat dari Sungai Nil.
+
+4). Lembah Sungai Nil
+
+Lembah Sungai Nil merupakan dataran rendah yang sangat subur. Karena
+
+itu, lembah Sungai Nil menjadi pusat aktivitas pertanian, penduduk,
+
+sumber air bersih dan irigasi. Sekitar 98 persen penduduk Mesir tinggal di Lembah Sungai Nil. Sungai Nil memiliki panjang 5.600 km dan menjadikannya sebagai sungai terpanjang di dunia.
+
+5). Geologi Mesir memiliki sumber daya alam berupa minyak dan gas, bijih besi, posfat, mangan, lempung, gipsum, talk, asbes, timah, emas, dan zinc. Gurun Mesir menyediakan pasokan garam yang berlimpah</p>
+ <hr>
+<p>Mesir tidak memiliki hutan. Flora yang umumnya tumbuh di Mesir merupakan pohon daerah kering tropis dan subtropis seperti pohon lontar (papyrus), palma, kayu putih (eucalyptus), akasia, dan semacam pohon cemara (cypress). Fauna yang umum dijumpai adalah domba, onta, dan keledai. Selain itu, Mesir memiliki sekitar 300 jenis burung. Hanya sedikit ditemui binatang liar seperti Hiena, Jakal, Lynx, luwak, dan babi liar. Sejenis kambing hutan dapat dijumpai di Sinai. Reptil berupa buaya dan ular juga dapat dijumpai di lembah Sungai Nil. Selain itu, berbagai jenis ikan dapat dijumpai di Sungai Nil.</p>          
+<hr>
+<p>Jumah penduduk Mesir mencapai 89,1 juta jiwa (WPDS, 2015). Sekitar 43 persen penduduknya tinggal di daerah perkotaan dan sekitar 2/3 dari penduduk tinggal di daerah delta dan lembah sungai yang subur. Para petani tradisional Mesir disebut felllahin. Penduduk Mesir dapat dibedakan menjadi tiga kelompok utama, yaitu:
+
+1) Orang Nubian dengan ciri kulit hitam, umumnya ada di selatan 2) Orang Hamit dengan ciri kulit putih dan merupakan pendiri Mesir kuno
+
+3) Orang Arab
+
+Sebagian besar (90%) penduduk Mesir beragama Islam, sisanya sekitar 10% beragama Kristen. Karena itu, konstitusi Mesir berdasarkan pada hukum Islam.</p>                    
+ </v-list-item-content>
+                            </v-list-item>
+
+                        </v-list>
+                </v-container>
+            </v-main>
+        </v-app>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vuetify@2.5.8/dist/vuetify.js"></script>
+    <script>
+        new Vue({
+            el: '#app',
+            vuetify: new Vuetify(),
+            methods: {
+                goBack() {
+                    window.history.back();
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>

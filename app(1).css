@@ -1,0 +1,13 @@
+body {
+    color: white;
+    background: white;
+}
+
+.white--text {
+    color: white !important;
+}
+img {
+width: 400px;
+height: 250px;
+border: 2px solid #bdbdbd;
+}
